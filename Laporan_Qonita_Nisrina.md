@@ -123,7 +123,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
 
 ```
 ## Output Grafik
-![Output Grafik6](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik1.png)
+![Output Grafik6](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik6.png)
 
 ```plaintext
 
