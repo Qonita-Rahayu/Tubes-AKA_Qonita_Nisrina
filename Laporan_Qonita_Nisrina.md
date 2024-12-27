@@ -34,7 +34,6 @@ def sequential_search_recursive(data, target_kelas, key, index=0):
 ```
 
 ## Output Terminal
-![Grafik1](assets\Grafik1.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 5
@@ -47,7 +46,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
 
 ```
 ## Output Grafik
-![Output Grafik1](assets\Grafik1.png)
+![Output Grafik1](\assets\Grafik1.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 10
@@ -61,7 +60,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 
 ```
 ## Output Grafik
-![Output Grafik2](assets\Grafik2.png)
+![Output Grafik2](\assets\Grafik2.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 15
@@ -75,7 +74,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
-![Output Grafik3](assets\Grafik3.png)
+![Output Grafik3](\assets\Grafik3.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 20
@@ -90,7 +89,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 3
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
-![output Grafik4](assets\Grafik4.png)
+![output Grafik4](\assets\Grafik4.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 25
@@ -106,7 +105,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
-![Output Grafik5](assets\Grafik5.png)
+![Output Grafik5](\assets\Grafik5.png)
 
 ```plaintext
 Masukkan nilai n (atau ketik -1 untuk keluar): 30
@@ -124,7 +123,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
 
 ```
 ## Output Grafik
-![Output Grafik6](assets\Grafik6.png)
+![Output Grafik6](\assets\Grafik6.png)
 
 ```plaintext
 
