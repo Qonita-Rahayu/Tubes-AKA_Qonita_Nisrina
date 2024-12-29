@@ -41,7 +41,7 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
 +---+--------------------+--------------------+
 | n | Recursive Time (s) | Iterative Time (s) |
 +---+--------------------+--------------------+
-| 5 |     0.00000834     |     0.00001478     |
+| 5 |     0.00000067     |     0.00000072     |
 +---+--------------------+--------------------+
 
 ```
@@ -54,8 +54,8 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 +----+--------------------+--------------------+
 | n  | Recursive Time (s) | Iterative Time (s) |
 +----+--------------------+--------------------+
-| 5  |     0.00000834     |     0.00001478     |
-| 10 |     0.00001264     |     0.00001597     |
+| 5  |     0.00000067     |     0.00000072     |
+| 10 |     0.00000161     |     0.00000145     |
 +----+--------------------+--------------------+
 
 ```
@@ -63,70 +63,51 @@ Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 ![Output Grafik2](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik2.png)
 
 ```plaintext
-Masukkan nilai n (atau ketik -1 untuk keluar): 15
-Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
+Masukkan nilai n (atau ketik -1 untuk keluar): 20
+Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 +----+--------------------+--------------------+
 | n  | Recursive Time (s) | Iterative Time (s) |
 +----+--------------------+--------------------+
-| 5  |     0.00000834     |     0.00001478     |
-| 10 |     0.00001264     |     0.00001597     |
-| 15 |     0.00000525     |     0.00001097     |
+| 5  |     0.00000067     |     0.00000072     |
+| 10 |     0.00000161     |     0.00000145     |
+| 20 |     0.00000221     |     0.00000144     |
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
 ![Output Grafik3](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik3.png)
 
 ```plaintext
-Masukkan nilai n (atau ketik -1 untuk keluar): 20
+Masukkan nilai n (atau ketik -1 untuk keluar): 25
 Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 3
 +----+--------------------+--------------------+
 | n  | Recursive Time (s) | Iterative Time (s) |
 +----+--------------------+--------------------+
-| 5  |     0.00000834     |     0.00001478     |
-| 10 |     0.00001264     |     0.00001597     |
-| 15 |     0.00000525     |     0.00001097     |
-| 20 |     0.00001287     |     0.00001979     |
+| 5  |     0.00000067     |     0.00000072     |
+| 10 |     0.00000161     |     0.00000145     |
+| 20 |     0.00000221     |     0.00000144     |
+| 25 |     0.00000081     |     0.00000063     |
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
 ![output Grafik4](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik4.png)
 
 ```plaintext
-Masukkan nilai n (atau ketik -1 untuk keluar): 25
+Masukkan nilai n (atau ketik -1 untuk keluar): 30
 Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 2
 +----+--------------------+--------------------+
 | n  | Recursive Time (s) | Iterative Time (s) |
 +----+--------------------+--------------------+
-| 5  |     0.00000954     |     0.00001764     |
-| 10 |     0.00000644     |     0.00001144     |
-| 15 |     0.00000548     |     0.00001144     |
-| 20 |     0.00001335     |     0.00001955     |
-| 25 |     0.00000715     |     0.00001168     |
+| 5  |     0.00000067     |     0.00000072     |
+| 10 |     0.00000161     |     0.00000145     |
+| 20 |     0.00000221     |     0.00000144     |
+| 25 |     0.00000081     |     0.00000063     |
+| 30 |     0.00000091     |     0.00000074     |
 +----+--------------------+--------------------+
 ```
 ## Output Grafik
 ![Output Grafik5](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik5.png)
 
 ```plaintext
-Masukkan nilai n (atau ketik -1 untuk keluar): 30
-Masukkan kelas BPJS yang ingin dicari (1, 2, atau 3): 1
-+----+--------------------+--------------------+
-| n  | Recursive Time (s) | Iterative Time (s) |
-+----+--------------------+--------------------+
-| 5  |     0.00000954     |     0.00001764     |
-| 10 |     0.00000644     |     0.00001144     |
-| 15 |     0.00000548     |     0.00001144     |
-| 20 |     0.00001335     |     0.00001955     |
-| 25 |     0.00000501     |     0.00001001     |
-| 30 |     0.00000548     |     0.00001216     |
-+----+--------------------+--------------------+
-
-```
-## Output Grafik
-![Output Grafik6](https://github.com/Qonita-Rahayu/Tubes-AKA_Qonita_Nisrina/blob/main/assets/Grafik6.png)
-
-```plaintext
-
 Program selesai!
 ```
 

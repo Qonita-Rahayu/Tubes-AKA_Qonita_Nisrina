@@ -39,23 +39,19 @@ def update_graph():
     plt.plot(n_values, iterative_times, label='Iterative', marker='o', linestyle='-')
     plt.plot(n_values, recursive_times, label='Recursive', marker='o', linestyle='-')
 
-    # Mengatur format sumbu Y untuk jarak angka lebih lebar
-    all_times = iterative_times + recursive_times
-    max_time = max(all_times)
-    min_time = min(all_times)
-    step = (max_time - min_time) / 5  # Membuat jarak angka lebih besar
-    ticks = [min_time + step * i for i in range(6)]
-    plt.yticks(ticks, [f"{tick:.8f}" for tick in ticks])
-
     plt.title('Grafik Iteratif vs Rekursif')
     plt.xlabel('Jumlah Pasien (n)')
     plt.ylabel('Execution Time (seconds)')
+
+    # Untuk mengatur format sumbu Y
+    plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{x:.8f}'))
+
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
     plt.show()
 
-# Fungsi untuk mencetak tabel
+# Untuk Fungsi untuk mencetak tabel
 def print_execution_table():
     table = PrettyTable()
     table.field_names = ["n", "Recursive Time (s)", "Iterative Time (s)"]
@@ -93,14 +89,21 @@ while True:
             continue
 
         # Untuk ukur waktu iteratif
-        start_time = time.time()
-        sequential_search_iterative(extended_data, target_kelas, "Kelas")
-        iterative_times.append(time.time() - start_time)
+        iterative_time_sum = 0
+        recursive_time_sum = 0
+        iterations = 100  
 
-        # Untuk ukur waktu rekursif
-        start_time = time.time()
-        sequential_search_recursive(extended_data, target_kelas, "Kelas")
-        recursive_times.append(time.time() - start_time)
+        for i in range(iterations):  
+            start_time = time.time()
+            sequential_search_iterative(extended_data, target_kelas, "Kelas")
+            iterative_time_sum += (time.time() - start_time)
+
+            start_time = time.time()
+            sequential_search_recursive(extended_data, target_kelas, "Kelas")
+            recursive_time_sum += (time.time() - start_time)
+
+        iterative_times.append(iterative_time_sum / iterations)
+        recursive_times.append(recursive_time_sum / iterations)
 
         # Untuk mencetak tabel hasil
         print_execution_table()
